@@ -1,0 +1,6 @@
+tutorial used: http://guides.railsgirls.com/sinatra-app/
+SINATRA gem installed 
+	$gem install sinatra
+
+when you run $ruby suffragist.rb, it will load at 
+	http://localhost:4567/
