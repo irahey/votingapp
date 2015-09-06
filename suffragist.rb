@@ -3,14 +3,14 @@ require 'yaml/store'
 
 
 Choices = {
-  'HAM' => 'Hamburger',
-  'PIZ' => 'Pizza',
-  'CUR' => 'Curry',
-  'NOO' => 'Noodles',
+  'HAM' => 'Juicy Cheesy Old-Fashioned Hamburgers',
+  'PIZ' => 'Overloaded Meat Pizza With All the Dips You Like',
+  'CUR' => 'Savoury Indian Butter Chicken Served with Roti',
+  'NOO' => 'Hearty Wonton Hand-Pulled Noodle Soup',
 }
 
 get '/' do
-  @title = 'Welcome to the Suffragist!'
+  @title = 'Saturday Dinner Poll!'
   erb :index
 end
 
